@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1>Create a new to-do list</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="todo-create">
+          <form action="todo.html" method="GET" autocomplete="off">
+            <h2 class="create-todo">Create a new to-do list</h2>
+            <label for="full-name">Full name :</label>
+            <input type="text" id="full-name" placeholder="John Smith" required />
+            <button type="submit" class="create-todo-button">Create</button>
+          </form>
+        </div>
+        <div class="todo-illustration">
+          <img src="assets/illustrations/todo-illustration.svg" alt="An illustration of a girl" />
+        </div>
+      </div>
+    </main>
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
